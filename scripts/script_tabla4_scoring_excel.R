@@ -1,4 +1,4 @@
-tabla2_excel <- tabla2 |>
+tabla4_excel <- tabla4 |>
   mutate(
     `Scoring (media ± SD)` = sprintf("%.2f ± %.2f", scoring_media, scoring_sd)
   ) |>
@@ -7,6 +7,6 @@ tabla2_excel <- tabla2 |>
     `n (productos)`,
     `Scoring (media ± SD)`
   )
-write_xlsx(tabla2_excel, "Tabla2_Scoring_Excel.xlsx")
+write_xlsx(tabla4_excel, "Tabla4_Scoring_Excel.xlsx")
 
 

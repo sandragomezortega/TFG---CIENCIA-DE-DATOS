@@ -1,4 +1,4 @@
-tabla2 <- todas_std |>
+tabla4 <- variables_std |>
   group_by(tipo) |>
   summarise(
     `n (productos)` = n(),
@@ -7,4 +7,4 @@ tabla2 <- todas_std |>
   )
 
 library(writexl)
-write_xlsx(tabla2, "Tabla2_Scoring_NoExcel.xlsx")
+write_xlsx(tabla4, "Tabla4_Scoring_NoExcel.xlsx")

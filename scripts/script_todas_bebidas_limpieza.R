@@ -12,7 +12,8 @@ bebidas <- function (archivo) {
 }
 
 vaca <- bebidas("leche_vaca.csv")
-soja <- bebidas("bebida_soja.csv")
+soja <- bebidas("bebida_soja.csv") %>% filter(!grepl("haverdrink|oat-based-drinks|coconut-based-drinks|carbonated-drinks|sodas",categoria_tag,ignore.case = TRUE)
+)
 almendra <- bebidas("bebida_almendra.csv")
 avena <- bebidas("bebida_avena.csv")
 
@@ -25,3 +26,4 @@ write.csv(vaca,"vaca.csv", row.names = FALSE)
 write.csv(avena,"avena.csv", row.names = FALSE)
 write.csv(soja,"soja.csv", row.names = FALSE)
 write.csv(almendra,"almendra.csv", row.names = FALSE)
+
