@@ -1,4 +1,4 @@
-#**Comparación nutricional entre la leche de vaca y bebidas vegetales: Un análisis basado en datos de Open Food Facts**
+#**Comparación nutricional entre la leche de vaca y bebidas vegetales: Un análisis basado en datos disponibles en Open Food Facts**
 
 ##**Descripción del proyecto**
 
