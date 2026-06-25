@@ -42,7 +42,8 @@ La metodología empleada en el estudio fue:
 **6. informe_A** *Incluye el informe final del estudio en formato de artículo científico junto a la portada utilizada para la entrega del TFG*
 
 **7. informe_B** *Incluye el informe donde se recoge información general del TFG (Título, autor, ODS, justificación de la revista científica seleccionada, entre otros)*
-**8. ARTICULO_FINAL** *Incluye la versión completa del artículo con la portada integrada en un único documento, siendo esta la versión final presentada como Trabajo de Final de Grado*
+
+**8. ARTICULO FINAL** *Incluye la versión completa del artículo con la portada integrada en un único documento, siendo esta la versión final presentada como Trabajo de Final de Grado*
 
 ##**Herramientas utilizadas**
 
